@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RotateArray {
+public class Q10 {
     public static void rotateLeft(int[] arr, int d, int n) {
         d = d % n; // In case d is larger than n
         reverseArray(arr, 0, d - 1);
